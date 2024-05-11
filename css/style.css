@@ -16574,11 +16574,7 @@ footer .section-bg-2 {
     font-size: 14px !important;
   }
 }
-@media (max-width: 850px) {
-  .ltn__call-to-action-area.ltn__call-to-action-4 {
-    background-position: right bottom !important;
-  }
-}
+
 .top-bar-right.text-right.text-end .ltn__top-bar-menu ul li {
   margin-right: 0;
 }
@@ -16816,4 +16812,25 @@ ul.list {
 footer .footer-address p a:hover {
   color: white !important;
   font-weight: bold;
+}
+body,html {
+  overflow-x: hidden !important;
+}
+@media (max-width: 850px) {
+  .ltn__call-to-action-area.ltn__call-to-action-4 {
+    background-position: right bottom !important;
+  }
+  .ltn__call-to-action-area.ltn__call-to-action-4
+    .call-to-action-inner.call-to-action-inner-4 {
+    top: 44% !important ;
+  }
+}
+@media (max-width: 465px) {
+  .scnd-section.ltn__blog-area .ltn__testimonial-item .ltn__testimoni-info {
+    margin-left: -20px;
+  }
+  .scnd-section.ltn__blog-area .ltn__testimonial-item .ltn__testimoni-img {
+    width: 55%;
+    right: -20px;
+  }
 }
